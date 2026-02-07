@@ -1,7 +1,11 @@
 body {
-  background: url("unnamed.jpg");
-  font-family: 'Arial', sans-serif;
+  background-image: url("unnamed.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
+
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,3 +38,4 @@ button:first-child {
   background: #ccc;
 
 }
+
