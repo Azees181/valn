@@ -1,6 +1,6 @@
 function yes() {
   document.getElementById("response").innerText =
-    "YAY! I knew it 💖🥰";
+    "Good girl 😚🥰";
 }
 
 function moveNo() {
@@ -8,4 +8,5 @@ function moveNo() {
   btn.style.position = "absolute";
   btn.style.left = Math.random() * 80 + "%";
   btn.style.top = Math.random() * 80 + "%";
+
 }
